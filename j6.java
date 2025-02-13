@@ -23,5 +23,6 @@ public class j6 {
         else{
             System.out.println("Number of factors = " + factors + " So " + a + " is a Not prime number");
         }
+        sc.close();
     }
 }

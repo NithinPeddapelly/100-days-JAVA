@@ -5,6 +5,7 @@ public class j8 {
         int a = sc.nextInt();
         String reportCard   = (a > 35)? "Pass" : "Fail";
         System.out.println(reportCard);
+        sc.close();
     }
     
 }

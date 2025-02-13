@@ -5,5 +5,6 @@ import java.util.Scanner;
             int side = sc.nextInt();
             int area = side * side;
             System.out.println(area);
+            sc.close();
         } 
     }

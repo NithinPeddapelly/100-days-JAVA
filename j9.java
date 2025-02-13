@@ -13,5 +13,6 @@ public class j9 {
             break;
             default : System.out.println("Wake up to reality");
         }
+        sc.close();
     }    
 }

@@ -21,5 +21,6 @@ public class j12 {
             default:System.out.println("Invalid Input");
                 break;
         }
+        sc.close();
     }
 }

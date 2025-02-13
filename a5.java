@@ -8,7 +8,7 @@ public class a5 {
         float bill = pen+pencil+eraser;
         float tax = bill * 0.18f;
         float finalBill = bill + tax;
-
+        sc.close();
         System.out.println("the total is " + finalBill);
 
     }
