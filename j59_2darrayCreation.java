@@ -35,5 +35,6 @@ public class j59_2darrayCreation {
         System.out.println("Enter the key value : ");
         int key = sc.nextInt(); 
         finder(matrix, key);
+        sc.close();
     }
 }
