@@ -7,5 +7,7 @@ public class a3 {
         int c = sc.nextInt();
         int average = (a+b+c) / 3;
         System.out.println(average);
+        sc.close();
     }
+    
 }
