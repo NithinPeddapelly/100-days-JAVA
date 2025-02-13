@@ -15,7 +15,7 @@ public class j51Trading {
         return Maxprofit;
     }
     public static void main(String args[]){
-        int arr[] = {7,1,5,3,6,4};
+        int arr[] = {7,1,5,3,6,4,6};
         System.out.println(tradef(arr));
     }
 }
