@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Collections;
 public class j56_inbuiltSort {
     public static void main(String args[]){
         Integer arr[] = {4,2,5,4,6,1,0};
