@@ -26,11 +26,11 @@ public class j50_Tapping_RainWater {
                 maxright[i] = maxR;
             }
         }
-        for (int i = 1; i < num; i++) {
+        for (int i = 1; i < num; i++) { //
             int level = Math.min(maxleft[i],maxright[i]);
-            int water = (level - arr[i])*1;
+            int water = (level - arr[i])*1; 
             System.out.print(water+" ");
-            store += water;
+            store += water; //
         }
         System.out.println();
         System.out.print(store);
