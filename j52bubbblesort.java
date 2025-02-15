@@ -1,6 +1,6 @@
 public class j52bubbblesort {
     public static void sort(int arr[]) {
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             int min = i;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j] < arr[min]) {
@@ -11,8 +11,9 @@ public class j52bubbblesort {
             arr[min] = arr[i];
             arr[i] = temp;
         }
+        
         int temp = 0;
-            for (int i = 0; i < arr.length-1; i++) {
+            for (int i = 0; i < arr.length; i++) {
             int length = arr.length;
             for (int j = i + 1; j < length; j++) {
                 if (arr[i] > arr[j]) {
@@ -27,7 +28,7 @@ public class j52bubbblesort {
     }
 
     public static void main(String args[]) {
-        int arr[] = { 5,2,3,1 };
+        int arr[] = { 5,2,3,1,10};
         sort(arr);
     }
 }
