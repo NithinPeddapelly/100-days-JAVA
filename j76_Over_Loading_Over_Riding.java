@@ -29,6 +29,6 @@ class Animal{
 }
 class Deer extends Animal{
     void eats(){
-        System.out.println("Deer eats grass");  // Over Riding the eats() method of Animal class
+        System.out.println("eats grass");  // Over Riding the eats() method of Animal class
     }
 }
