@@ -22,7 +22,6 @@ class Caluclator{
     }
 }
 
-
 class Animal{
     void eats() {
         System.out.println("Animal eats anyting"); // initial eats() method of Animal class
