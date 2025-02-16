@@ -48,12 +48,12 @@ public class j63_2D_array_practice {
     public static void main(String args[]) {
         int arr[][] = { { 1, 2, 3 },
                         { 4, 5, 6 } };
-        int key = 4;
+        int key = 4; // key to search
         // count(arr, key);
 
-        int nums[][] = { { 1, 4, 9 },
-                { 11, 4, 3 },
-                { 2, 2, 3 } };
+        int nums[][] = { { 1, 4, 9 }, // row 1
+                { 11, 4, 3 }, //row 2
+                { 2, 2, 3 } }; // row 3
         // sum(nums);
         Transpose(arr);
     }
