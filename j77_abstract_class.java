@@ -11,6 +11,10 @@ public class j77_abstract_class {
     }
 }
 abstract class Animal{  // abstract class - can have abstract methods - cannot create class objects - can create constructor
+    String color;
+    Animal(){
+        color = "Brown";
+    }
     void eats(){
         System.out.println("eats");
     }
@@ -18,14 +22,18 @@ abstract class Animal{  // abstract class - can have abstract methods - cannot c
 }
 
 class Horse extends Animal{
-    
+    void changeColor(){
+        color = "White";
+    }
     void walk(){
         System.out.println("Horse walks on 4 legs");
     }
 }
 
 class Chicken extends Animal{
-  
+    void changeColor(){
+        color = "orange";
+    }
     void walk(){
         System.out.println("Chicken walks on 2 legs");
     }
